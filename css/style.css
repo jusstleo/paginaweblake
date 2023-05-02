@@ -1,4 +1,33 @@
 body{
-background-color:blue
+background-color:blue;
+background-image: url("../img/clippers.webp");
+background-repeat: no-repeat;
+background-size: cover;
+background-position:  unset;
 
+
+
+}
+
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inicio img{
+    border-radius: 100%;
+    border: 10px solid white;
+}
+
+.galeria{
+
+    display: flex;
+    overflow-x: scroll;
+}
+
+.galeria img{
+    width: 350px;
+    height: 350px;
 }
