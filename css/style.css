@@ -7,6 +7,7 @@ body{
     color: white;
 }
 
+
 .inicio{
     display: flex;
     flex-direction: column;
@@ -23,6 +24,11 @@ body{
 .inicio img{
     border-radius: 100%;
     border: 5px solid white;
+}
+
+.historia{
+
+    color: white;
 }
 
 
@@ -50,14 +56,14 @@ h6{
 
 
 .primer-parrafo{
-    color: rgb(244, 241, 241);
+    color: rgb(8, 8, 8);
     font-size: 50px;
     font-family: "Arial";
     font-weight: 700;
 }
 
 .segundo-parrafo{
-    color: rgb(240, 238, 238);
+    color: rgb(6, 6, 6);
     font-size: 40px;
     font-family:cursive;
     font-weight: 800;
@@ -75,7 +81,11 @@ h6{
     height: 350px
 }
 
+.lista{
+color: #f1f1f1;
 
+
+}
 
 
 
@@ -85,7 +95,11 @@ ul{
 }
 ol{
     color: #f1f1f1;
-    
+    .lista de jugadores{
+
+
+        color: rgb(249, 251, 252);
+    }
 
 }
 
